@@ -5,20 +5,30 @@
         <title>
             My Web Page
         </title>
+
         <link rel="stylesheet" href="myStyle.css">
         <link rel="icon" href="resources/favicon.svg" type="image/svg+xml">
+        
     </head>
 
-    <body>
+    <body> 
+
+        <img 
+        src = "resources/favicon.svg"   
+        alt="Animtated Text Banner"     
+        height="300"
+        width="100%"
+        />
+
         <nav class="menue">
-            <ul>
-                <li>
-                    <a href="./views/two.html">
+            <ul class="ulMenue">
+                <li class="liMenue">
+                    <a href="./two.html">
                         Page Two
                     </a>
                 </li>
-                <li>
-                    <a href="./views/three.html">
+                <li class="liMenue">
+                    <a href="./three.html">
                         Page Three
                     </a>
                 </li>
@@ -31,15 +41,33 @@
             How to Apply CSS to HTML
         </h2>
 
-        <p class="css-question">
+        <ul>
+            <li>
+                <p class="css-question">
 
-            CSS can be linked to an HTML file by the following:
+                    CSS can be linked to an HTML file by the following:
+        
+                
+                   
+                </p>
+            </li>
 
-            <code>
-                <head>
-                    <link rel="stylesheet" href="myStyle.css">
-                </head>
-            </code>
+            <l>
+                
+                <code>
+                     head>
+                         <p> <code> link rel="stylesheet" href="myStyle.css" /> </code></p> 
+                    
+                     /head>
+                        
+                </code>
+            </l>
+        </ul>
+
+        
+
+        
+       
 
         </p>
 
@@ -50,8 +78,46 @@
         </h2>
 
         <p class="js-question">
-            How to link to an external JavaScript file with an example.
-            How to write JavaScript code within an html file with an example.
+
+            <ul>
+                <li>
+                    <p>
+                        How to link to an external JavaScript file with an example.
+                    </p>
+                </li>
+
+                <l>
+                    <code>
+                         script src="path/to/my/script.js"> /script> 
+                    </code>
+                   
+                </l>
+
+                <li>
+                    <P>
+                        How to write JavaScript code within an html file example:
+                    </P>
+                 
+                </li>
+
+                <l>
+                    <p>
+                        <code>
+                            script>
+                            <p>
+                                window.addEventListener("load", () => {
+                                <p>
+                                    console.log("This function is executed once the page is fully loaded");
+                                    });
+                                </p>
+                            /script>
+                        </p>
+                        </code>
+            
+                    </p>
+
+                </l>
+            </ul>
         </p>
     </body>
 

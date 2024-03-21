@@ -1,0 +1,16 @@
+
+  <svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+   
+    <rect id="movingRect" x="100" y="100" width="200" height="200" fill="none" stroke="blue" />
+    
+
+    <circle id="movingCircle" cx="0" cy="0" r="10" fill="red">
+     
+      <animateMotion dur="5s" repeatCount="indefinite">
+        <mpath href="#rectPath" />
+      </animateMotion>
+    </circle>
+  
+    <path id="rectPath" d="M 100,100 L 300,100 L 300,300 L 100,300 L 100,100 Z" fill="none" />
+  </svg>
+  
